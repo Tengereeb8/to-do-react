@@ -109,7 +109,7 @@ export const TaskList = () => {
               className={`h-8 w-[38px] rounded-md border font-normal cursor-pointer transition-all ${
                 filter === "all"
                   ? "bg-[#007bff] text-white border-[#007bff]"
-                  : "bg-[#f3f4f6] text-black border-[#999]"
+                  : "bg-[#f3f4f6] text-black border-none"
               }`}
             >
               All
@@ -119,7 +119,7 @@ export const TaskList = () => {
               className={`h-8 w-[60px] rounded-md border font-normal cursor-pointer transition-all ${
                 filter === "active"
                   ? "bg-[#007bff] text-white border-[#007bff]"
-                  : "bg-[#f3f4f6] text-black border-[#999]"
+                  : "bg-[#f3f4f6] text-black border-none"
               }`}
             >
               Active
@@ -129,7 +129,7 @@ export const TaskList = () => {
               className={`h-8 w-[87px] rounded-md border font-normal cursor-pointer transition-all ${
                 filter === "completed"
                   ? "bg-[#007bff] text-white border-[#007bff]"
-                  : "bg-[#f3f4f6] text-black border-[#999]"
+                  : "bg-[#f3f4f6] text-black border-none"
               }`}
             >
               Completed
